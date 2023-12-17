@@ -86,9 +86,4 @@ actor {
   public query func getNGOUsers() : async [NGOUser] {
     return List.toArray(ngousers);
   };
-
-
-
-
-
 }

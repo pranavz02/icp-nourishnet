@@ -6,6 +6,7 @@ import Header from "../../components/Header";
 import CameraAltIcon from "@mui/icons-material/CameraAlt"; // Import the camera icon
 import HOST from "../../utils/Host.js";
 import axios from "axios";
+import React from "react";
 
 const NgoDashboard = () => {
   const location = async () => {

@@ -9,10 +9,10 @@ console.log(process.env.CANISTER_ID_INTERNET_IDENTITY);
 
 const whoAmIButton = async (e) => {
     e.preventDefault();
-    whoAmIButton.setAttribute("disabled", true);
+    // whoAmIButton.setAttribute("disabled", true);
 
     const principal = await actor.whoami();
-    whoAmIButton.removeAttribute("disabled");
+    // whoAmIButton.removeAttribute("disabled");
     return principal.toString();
 };
 

@@ -1,6 +1,7 @@
 import { Box, Typography, useTheme } from "@mui/material";
 import { tokens } from "../theme";
 import ProgressCircle from "./ProgressCircle";
+import React from "react";
 
 // eslint-disable-next-line react/prop-types
 const StatBox = ({ title, subtitle, icon, progress, increase }) => {

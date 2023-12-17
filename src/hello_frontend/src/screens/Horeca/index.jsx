@@ -3,6 +3,7 @@ import { FaPhone, FaMapMarkerAlt, FaMapMarkedAlt } from 'react-icons/fa' // Impo
 import Header from '../../components/Header'
 import styled from 'styled-components' // Import styled-components
 import { demoRestaurant } from '../../assets/main.js'
+import React from "react";
 
 const StyledCard = styled(Card)`
   width: 275px;

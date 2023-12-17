@@ -4,6 +4,7 @@ import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Header from "../../components/Header";
 import CameraAltIcon from "@mui/icons-material/CameraAlt"; // Import the camera icon
+import React from "react";
 
 const Dashboard = () => {
   const location = async () => {

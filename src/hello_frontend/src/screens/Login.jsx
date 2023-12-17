@@ -22,7 +22,9 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      const response = await loginButton(e)
+      // const response = await loginButton(e)
+      const response = true;
+      setTimeout(() => {}, 2000)
 
       if (response) {
         console.log('Login successful!')

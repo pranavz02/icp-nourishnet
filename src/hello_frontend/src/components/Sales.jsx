@@ -4,6 +4,7 @@ import { layout } from '../styles'
 import styles from '../styles'
 import Button from './Button'
 import { card } from '../assets/main.js'
+import React from "react";
 
 const Sales = () => {
   const [isInView, setIsInView] = useState(false)

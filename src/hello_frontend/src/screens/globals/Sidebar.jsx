@@ -26,6 +26,7 @@ import {
   StoreOutlined,
 } from '@mui/icons-material'
 import FastfoodOutlinedIcon from '@mui/icons-material/FastfoodOutlined'
+import React from "react";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme()
@@ -119,7 +120,7 @@ const Sidebar = () => {
                   fontWeight='bold'
                   sx={{ m: '10px 0 0 0' }}
                 >
-                  Ayush B
+                  Pranav Z
                 </Typography>
                 <Typography variant='h5' color={colors.greenAccent[500]}>
                   Mariott International

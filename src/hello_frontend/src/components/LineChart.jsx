@@ -2,6 +2,7 @@ import { ResponsiveLine } from "@nivo/line";
 import { useTheme } from "@mui/material";
 import { tokens } from "../theme";
 import { mockLineData as data } from "../data/mockData";
+import React from "react";
 
 // eslint-disable-next-line react/prop-types, no-unused-vars
 const LineChart = ({ isCustomLineColors = false, isProDashboard = false }) => {

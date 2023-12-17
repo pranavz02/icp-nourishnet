@@ -17,7 +17,7 @@ import PieChartOutlineOutlinedIcon from '@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from '@mui/icons-material/TimelineOutlined'
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined'
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined'
-import { IK, people01 } from '../../assets/main.js'
+import { people01 } from '../../assets/main.js'
 import {
   FoodBankOutlined,
   MessageOutlined,
@@ -25,6 +25,7 @@ import {
   RestaurantOutlined,
 } from '@mui/icons-material'
 import FastfoodOutlinedIcon from '@mui/icons-material/FastfoodOutlined'
+import React from "react";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme()
@@ -107,7 +108,7 @@ const NgoSidebar = () => {
                   alt='profile-user'
                   width='100px'
                   height='100px'
-                  src={IK}
+                  src={people01}
                   style={{ cursor: 'pointer', borderRadius: '50%' }}
                 />
               </Box>
@@ -118,7 +119,7 @@ const NgoSidebar = () => {
                   fontWeight='bold'
                   sx={{ m: '10px 0 0 0' }}
                 >
-                  Ishpreet K
+                  Pranav Z
                 </Typography>
                 <Typography variant='h5' color={colors.greenAccent[500]}>
                   AkshyaPatra Foundation

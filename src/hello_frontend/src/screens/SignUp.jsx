@@ -31,12 +31,13 @@ const SignUp = () => {
       // } else if (type === 'NGO') {
       //   const ngo = await hello_backend.addNGOUser(name, email)
       // }
-      // const response = whoAmIButton(e)
+      // const response = await whoAmIButton(e)
       const response = true;
+      setTimeout(() => {}, 2000);
 
       if (response) {
         toast.success(
-          `Your account has been created! Your ID is: ${response}`,
+          "Your account has been created!",
           {
             position: 'top-left',
             autoClose: 2000,
@@ -48,12 +49,12 @@ const SignUp = () => {
           }
         )
 
-        // setTimeout(() => {
-        //   // Redirect after showing the toast
-        //   if (response.data.newUser.type === "HoReKa") navigate("/dashboard");
-        //   else if (response.data.newUser.type === "NGO")
-        //     navigate("/ngodashboard");
-        // }, 2000); // Adjust the timing if needed
+        setTimeout(() => {
+          // Redirect after showing the toast
+          if (email === "pranav@gmail.com") navigate("/dashboard");
+          else if (email === "ngo@gmail.com")
+            navigate("/ngodashboard");
+        }, 2000); // Adjust the timing if needed
       }
     } catch (error) {
       console.error(error)
