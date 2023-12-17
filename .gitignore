@@ -22,3 +22,6 @@ dist/
 
 # environment variables
 .env
+node_modules/
+package-lock.json
+```

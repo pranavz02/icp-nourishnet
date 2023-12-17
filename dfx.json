@@ -4,14 +4,17 @@
       "main": "src/hello_backend/main.mo",
       "type": "motoko"
     },
+    "internet_identity" : {
+      "type": "pull",
+      "id": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+    },
     "hello_frontend": {
-      "dependencies": [
-        "hello_backend"
-      ],
+      "dependencies": ["hello_backend"],
       "frontend": {
         "entrypoint": "src/hello_frontend/src/index.html"
       },
       "source": [
+        "src/hello_frontend/src/assets",
         "src/hello_frontend/assets",
         "dist/hello_frontend/"
       ],
